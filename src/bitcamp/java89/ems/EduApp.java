@@ -22,6 +22,7 @@ public class EduApp {
 =======
         case "help3": break;
         case "help1": break;
+        case "haha": break;
         case "haha3": break;
 >>>>>>> 33463f9eda9d7e8fb694567af78d19f2655b1e6c
         case "quit":
