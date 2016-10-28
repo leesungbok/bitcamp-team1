@@ -2,7 +2,7 @@ package bitcamp.java89.ems;
 import java.util.Scanner;
 public class EduApp {
   public static void main(String[] args) {
-    System.out.println("비트캠프 관리시스템에 오신걸 환영합니다.");
+    System.out.println("비트캠프 관리시스템에 오신걸 환영합니다sga.");
     Scanner keyScan = new Scanner(System.in);
     ClassroomController classroomController = new ClassroomController(keyScan);
     StudentController studentController = new StudentController(keyScan);
@@ -16,6 +16,7 @@ public class EduApp {
         case "go 1": classroomController.service(); break;
         case "go 2": studentController.service(); break;
         case "go 3": teacherController.service(); break;
+        case "haha": break;
         case "quit":
           System.out.println("Bye");
           break loop;
@@ -34,6 +35,6 @@ public class EduApp {
   }
 
   static void doMesage() {
-    System.out.println("산만하게 해서 미안하네.");
+    System.out.println("lsekrjhyslkhslkej");
   }
 }
