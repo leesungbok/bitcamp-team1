@@ -19,6 +19,7 @@ public class EduApp {
         case "help3": break;
         case "help1": break;
         case "haha": break;
+        case "haha3": break;
         case "quit":
           System.out.println("Bye");
           break loop;
