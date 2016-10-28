@@ -3,8 +3,6 @@ import java.util.Scanner;
 public class EduApp {
   public static void main(String[] args) {
     System.out.println("비트캠프 관리시스템에 오신걸 환영합니다.");
-    System.out.println("비트캠프 관리시스템에 오신걸 환영합니다.");
-    System.out.println("비트캠프 관리시스템에 오신걸 환영합니다.");
     Scanner keyScan = new Scanner(System.in);
     ClassroomController classroomController = new ClassroomController(keyScan);
     StudentController studentController = new StudentController(keyScan);
@@ -37,5 +35,7 @@ public class EduApp {
 
   static void doMesage() {
     System.out.println("산만하게 해서 미안하네.");
+    System.out.println("우리팀 에이스인데 ㅠㅠ ");
+    
   }
 }
