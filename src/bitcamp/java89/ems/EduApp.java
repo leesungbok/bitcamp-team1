@@ -3,6 +3,8 @@ import java.util.Scanner;
 public class EduApp {
   public static void main(String[] args) {
     System.out.println("비트캠프 관리시스템에 오신걸 환영합니다.");
+    System.out.println("비트캠프 관리시스템에 오신걸 환영합니다.");
+    System.out.println("비트캠프 관리시스템에 오신걸 환영합니다.");
     Scanner keyScan = new Scanner(System.in);
     ClassroomController classroomController = new ClassroomController(keyScan);
     StudentController studentController = new StudentController(keyScan);
