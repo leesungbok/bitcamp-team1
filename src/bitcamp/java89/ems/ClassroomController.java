@@ -23,6 +23,7 @@ public class ClassroomController {
           break loop;
         default :
           System.out.println("올바른 명령어가 아닙니다. 다시 입력하세요.");
+          System.out.println();
       }
     }
   }

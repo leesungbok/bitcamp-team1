@@ -28,8 +28,8 @@ public class EduApp {
   static void doMenu() {
     System.out.println("[메뉴]");
     System.out.println("1. 강의실 관리");
-    System.out.println("3. 강사 관리");
     System.out.println("2. 학생 관리");
+    System.out.println("3. 강사 관리");
     System.out.println("메뉴 이동은 'go 메뉴번호'를 입력하세요");
   }
 }
