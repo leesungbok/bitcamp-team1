@@ -16,10 +16,7 @@ public class EduApp {
         case "go 1": classroomController.service(); break;
         case "go 2": studentController.service(); break;
         case "go 3": teacherController.service(); break;
-        case "haha": break;
         case "quit": break;
-        case "tetetetetetetete": break;
-        case "k3j4b5k3j4nkgzksf": break;
           System.out.println("Bye");
           break loop;
         default :
@@ -34,11 +31,5 @@ public class EduApp {
     System.out.println("2. 학생 관리");
     System.out.println("3. 강사 관리");
     System.out.println("메뉴 이동은 'go 메뉴번호'를 입력하세요");
-  }
-
-  static void doMesage() {
-<<<<<<< HEAD
-    System.out.println("산만하게 해서 미안하네.");
-    System.out.println("우리팀 에이스인데 ㅠㅠ ");
   }
 }
