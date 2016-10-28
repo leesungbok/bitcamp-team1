@@ -16,6 +16,7 @@ public class EduApp {
         case "go 1": classroomController.service(); break;
         case "go 2": studentController.service(); break;
         case "go 3": teacherController.service(); break;
+        case "haha": break;
         case "quit":
           System.out.println("Bye");
           break loop;
@@ -34,8 +35,8 @@ public class EduApp {
   }
 
   static void doMesage() {
+<<<<<<< HEAD
     System.out.println("산만하게 해서 미안하네.");
     System.out.println("우리팀 에이스인데 ㅠㅠ ");
-    
   }
 }
