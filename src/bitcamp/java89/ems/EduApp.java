@@ -32,4 +32,8 @@ public class EduApp {
     System.out.println("3. 강사 관리");
     System.out.println("메뉴 이동은 'go 메뉴번호'를 입력하세요");
   }
+
+  static void doMesage() {
+    System.out.println("산만하게 해서 미안하네.");
+  }
 }
